@@ -31,7 +31,7 @@ import { catalogEntityRegistry } from "../catalog";
 import { ClusterManager } from "../cluster-manager";
 import { bundledKubectlPath } from "../kubectl";
 import logger from "../logger";
-import { promiseExecFile } from "../promise-exec";
+import { promiseExecFile } from "../../common/utils";
 import { ResourceApplier } from "../resource-applier";
 import { WindowManager } from "../window-manager";
 
